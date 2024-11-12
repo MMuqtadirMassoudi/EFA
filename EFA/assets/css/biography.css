@@ -1,0 +1,92 @@
+.teacher-profile-card {
+    background-color: #0088ff;
+    color: #ffffff;
+    padding: 50px 0;
+    border-radius: 10px;
+    margin-top: 10rem;
+}
+
+.teacher-profile-card .img-fluid {
+    width: 150px;
+    height: 150px;
+}
+
+.teacher-profile-card h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.teacher-profile-card .text-muted {
+    color: rgba(255, 255, 255, 0.8) !important;
+    margin-bottom: 20px;
+}
+
+.teacher-profile-card .description {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.teacher-pfp{
+    width: 10rem;
+    margin-right: 2rem;
+}
+
+.teacher-about-txt{
+    text-align: justify;
+    width: 75%;
+}
+
+.teacher-name{
+    color: var(--primary-color);
+    display: inline-block;
+}
+
+.teacher-container-1{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.skillsets{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin-bottom: 10rem !important;
+}
+
+.skill-bar {
+    position: relative;
+    background-color: #c6c6c6;
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+}
+
+.skill-bar-inner {
+    position: absolute;
+    background-color: var(--primary-color);
+    height: 100%;
+    width: 0;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    transition: width 1s ease-in-out;
+}
+
+.skill-bar-text {
+    position: relative;
+    z-index: 1;
+    font-weight: 500;
+    display: inline-block;
+    width: 100%;
+}
+  
+.details-container{
+    width: 50%;
+    height: 100%;
+}
+
